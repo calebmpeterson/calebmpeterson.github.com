@@ -1,4 +1,4 @@
 # Netlify redirects
 # Documentation: https://docs.netlify.com/routing/redirects/
 
-/the-ux-mini-course/*                  https://the-ux-mini-course.now.sh/:splat                 301
+/the-ux-mini-course/*                  https://the-ux-mini-course.now.sh/:splat                 301!
