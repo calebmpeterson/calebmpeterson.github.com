@@ -11,3 +11,54 @@
 a:not(.btn) {
   text-decoration: underline;
 }
+
+.project {
+  position: relative;
+  border: 1px solid #888;
+  padding: 3rem;
+}
+.project:nth-child(even) {
+  border-left: none;
+}
+.project:nth-child(odd) {
+  border-right: none;
+}
+.project:not(:last-child) {
+  border-bottom: none;
+}
+
+.project:nth-child(even) {
+  text-align: right;
+}
+
+.project-text {
+  max-width: 300px;
+}
+.project:nth-child(even) .project-text {
+  margin-left: auto;
+}
+
+.project:before {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  padding: 10px;
+  height: 25px;
+  width: 25px;
+  margin-top: -5px;
+  background-color: #fff;
+  text-align: center;
+  line-height: 1.25rem;
+  color: #fff;
+  border: 2px solid black;
+  border-radius: 50%;
+  font-size: 1rem;
+}
+.project:nth-child(odd):before {
+  right: 100%;
+  margin-right: -12px;
+}
+.project:nth-child(even):before {
+  left: 100%;
+  margin-left: -12px;
+}
