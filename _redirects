@@ -2,4 +2,4 @@
 # Documentation: https://docs.netlify.com/routing/redirects/
 
 /the-ux-mini-course/*                  https://the-ux-mini-course.com/:splat                 301!
-*                                      https://cubicle6.now.sh/:splat                        200
+/*                                     https://cubicle6.now.sh/:splat                        200
