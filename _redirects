@@ -1,9 +1,9 @@
 /the-ux-mini-course/*              https://the-ux-mini-course.com/:splat                     301!
 
-/cyan                              /cyan/                                                    301!
 /cyan/*                            https://calebmpeterson.github.io/cyan/:splat              200
+/cyan                              /cyan/                                                    301!
 
-/ultraviolet                       /ultraviolet/                                             301!
 /ultraviolet/*                     https://calebmpeterson.github.io/ultraviolet/:splat       200
+/ultraviolet                       /ultraviolet/                                             301!
 
 /*                                 https://cubicle6.now.sh/:splat                            200
