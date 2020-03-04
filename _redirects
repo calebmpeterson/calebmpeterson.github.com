@@ -1,3 +1,4 @@
 /the-ux-mini-course/*              https://the-ux-mini-course.com/:splat             301!
 /cyan/*                            https://calebmpeterson.github.io/cyan/:splat      200
+/cyan                              https://calebmpeterson.github.io/cyan/            200                                 
 /*                                 https://cubicle6.now.sh/:splat                    200
