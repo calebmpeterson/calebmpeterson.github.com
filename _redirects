@@ -1,5 +1,7 @@
 /the-ux-mini-course/*              https://the-ux-mini-course.com/:splat                     301!
 
+/rebootstrap/*                     https://calebmpeterson.github.io/rebootstrap/:splat       200
+
 /cyan/*                            https://calebmpeterson.github.io/cyan/:splat              200
 /cyan                              https://calebmpeterson.github.io/cyan/                    301!
 
